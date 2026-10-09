@@ -9,7 +9,7 @@ function App() {
     "Main Gate",
     "Hockey ground",
     "Cafeteria",
-    "Software Engineering Department",
+    "Software Engineering Department",   "Software Engineering Department",
     "Hostel",
   ];
 
