@@ -8,7 +8,7 @@ function App() {
   const locations = [
     "Main Gate",
     "VC OFFICE",
-    "Cafeteria",
+    "Printer Shop",
     "Software Engineering Department",   "Software Engineering Department",
     "Hostel",
   ];
