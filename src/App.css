@@ -19,13 +19,13 @@ body {
 
 h1 {
   margin: 0;
-  color: #0f172a;
-  font-size: 32px;
+  color: #0f173a;
+  font-size: 34px;
 }
 
 .subtitle {
   margin: 10px 0 25px;
-  color: #475569;
+  color: #475568;
 }
 
 .form {
@@ -42,7 +42,7 @@ h1 {
 
 label {
   margin-top: 5px;
-  color: #1e293b;
+  color: #1e294b;
   font-weight: bold;
 }
 
