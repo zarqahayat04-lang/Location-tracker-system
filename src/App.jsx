@@ -75,3 +75,10 @@ To: ${destination}`);
 }
 
 export default App;
+document.getElementById("resetSelections").addEventListener("click", function () {
+  const locationDropdown = document.getElementById("locationDropdown");
+
+  if (locationDropdown) {
+    locationDropdown.value = "";
+  }
+});
