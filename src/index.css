@@ -109,3 +109,54 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.location-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.location-details h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.location-card {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.location-card h3 {
+  margin: 0 0 10px;
+  color: #2c3e50;
+}
+
+.location-address {
+  color: #7f8c8d;
+  margin: 0 0 10px;
+}
+
+.location-description {
+  color: #34495e;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.location-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.location-button:hover {
+  background-color: #2980b9;
+}

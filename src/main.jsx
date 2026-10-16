@@ -8,3 +8,10 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+<button
+  className="location-button"
+  onClick={() => alert("Opening map for the selected location...")}
+>
+  View on Map
+</button>
