@@ -6,11 +6,13 @@ function App() {
   const [destination, setDestination] = useState("");
 
   const locations = [
-    "Main Gate",
-    "VC OFFICE",
-    "Cafeteria",
-    "Software Engineering Department",   "Software Engineering Department",
-    "Hostel",
+  "Main Gate",
+  "Financial Aid OFFICE",
+  "Cafeteria",
+  "Software Engineering Department",
+  "Hostel",
+];
+    
   ];
 
   function findRoute() {
@@ -32,7 +34,24 @@ To: ${destination}`);
   return (
     <div className="app">
       <h1>Location Tracker System</h1>
+<section className="location-details">
+  <h2>Location Details</h2>
 
+  <div className="location-card">
+    <h3>Campus 1</h3>
+    <p className="location-address">Main Campus, City Center</p>
+    <p className="location-description">
+      This campus includes classrooms, a library, cafeteria, and student areas.
+    </p>
+
+    <button
+      className="location-button"
+      onClick={() => alert("Opening map for the selected location...")}
+    >
+      View on Map
+    </button>
+  </div>
+</section>
       <p className="subtitle">
         Select your current location and destination.
       </p>
