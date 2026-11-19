@@ -7,6 +7,7 @@ function App() {
 
   const locations = [
     "Main Gate",
+    "VC OFFICE ",
     "VC OFFICE",
     "Printer Shop",
     "Software Engineering Department",   "Software Engineering Department",
@@ -32,6 +33,7 @@ To: ${destination}`);
   return (
     <div className="app">
       <h1>Location Tracker System</h1>
+      
 
       <p className="subtitle">
         Select your current location and destination.
