@@ -8,6 +8,7 @@ function App() {
   const locations = [
     "Main Gate",
     "VC OFFICE ",
+    "VC OFFICE",
     "Printer Shop",
     "Software Engineering Department",   "Software Engineering Department",
     "Hostel",
@@ -76,3 +77,10 @@ To: ${destination}`);
 }
 
 export default App;
+document.getElementById("resetSelections").addEventListener("click", function () {
+  const locationDropdown = document.getElementById("locationDropdown");
+
+  if (locationDropdown) {
+    locationDropdown.value = "";
+  }
+});
